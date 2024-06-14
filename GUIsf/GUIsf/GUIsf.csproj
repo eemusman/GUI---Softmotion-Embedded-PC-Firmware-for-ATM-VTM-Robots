@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB2F0AE0-BB0C-41DA-AE97-D986F77D1597}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUIsf</RootNamespace>
+    <AssemblyName>GUIsf</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedMotionApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\AdvancedMotionApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AeroSuite">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\AeroSuite.dll</HintPath>
+    </Reference>
+    <Reference Include="AltoControls">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\AltoControls.dll</HintPath>
+    </Reference>
+    <Reference Include="ApiBufferApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\ApiBufferApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorButton, Version=1.0.1580.37638, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\ColorButton.dll</HintPath>
+    </Reference>
+    <Reference Include="CompensationApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\CompensationApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ComputerId_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\ComputerId_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CoordinateApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\CoordinateApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreMotionApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\CoreMotionApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CyclicBufferApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\CyclicBufferApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DarkUI">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\DarkUI.dll</HintPath>
+    </Reference>
+    <Reference Include="EcApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\EcApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EcFilter_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\EcFilter_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="EventApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\EventApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="GlowButton, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\GlowButton.dll</HintPath>
+    </Reference>
+    <Reference Include="IOApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\IOApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="KinematicsApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\KinematicsApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LogApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\LogApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MIIIApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\MIIIApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="RBC_ApiCLR">
+      <HintPath>E:\SoftServo\WMX3\Lib\RBC_ApiCLR.dll</HintPath>
+    </Reference>
+    <Reference Include="ReichUI">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\ReichUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RtexApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\RtexApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SimuApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\SimuApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UserMemoryApi_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\UserMemoryApi_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="VisualPlus">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\VisualPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="WMX3Api_CLRLib">
+      <HintPath>E:\SoftServo\WMX3\Lib\WMX3Api_CLRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="XanderUI">
+      <HintPath>..\..\..\GUIsf\GUIsf\bin\x64\Debug\XanderUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlarm.designer.cs">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatabase.designer.cs">
+      <DependentUpon>FormDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ECPlatform.cs" />
+    <Compile Include="FormEngineer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEngineer.designer.cs">
+      <DependentUpon>FormEngineer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoading.designer.cs">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIO.designer.cs">
+      <DependentUpon>FormIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOFILE.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainGUI.Designer.cs">
+      <DependentUpon>FormMainGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormManual.designer.cs">
+      <DependentUpon>FormManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMotorParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMotorParameters.designer.cs">
+      <DependentUpon>FormMotorParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formmultipleaxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmultipleaxis.designer.cs">
+      <DependentUpon>Formmultipleaxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormRobot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRobot.Designer.cs">
+      <DependentUpon>FormRobot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RS232.cs" />
+    <Compile Include="FormRS232form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRS232form.designer.cs">
+      <DependentUpon>FormRS232form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SFIO.cs" />
+    <Compile Include="SFSequence.cs" />
+    <Compile Include="SFThread.cs" />
+    <Compile Include="Softmotion.cs" />
+    <Compile Include="FormTeaching.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeaching.designer.cs">
+      <DependentUpon>FormTeaching.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAlarm.resx">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDatabase.resx">
+      <DependentUpon>FormDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEngineer.resx">
+      <DependentUpon>FormEngineer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoading.resx">
+      <DependentUpon>FormLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIO.resx">
+      <DependentUpon>FormIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainGUI.resx">
+      <DependentUpon>FormMainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormManual.resx">
+      <DependentUpon>FormManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMotorParameters.resx">
+      <DependentUpon>FormMotorParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmultipleaxis.resx">
+      <DependentUpon>Formmultipleaxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormRobot.resx">
+      <DependentUpon>FormRobot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRS232form.resx">
+      <DependentUpon>FormRS232form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeaching.resx">
+      <DependentUpon>FormTeaching.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uparrow1.bmp" />
+    <None Include="Resources\downarrow1.bmp" />
+    <None Include="Resources\leftarrow1.bmp" />
+    <None Include="Resources\rightarrow1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uparrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftarrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninebelllogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ninebell logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\downarrow.png" />
+    <None Include="Resources\leftarrow1.png" />
+    <None Include="Resources\rightarrow1.png" />
+    <None Include="Resources\uparrow1.png" />
+    <None Include="Resources\downarrow1.png" />
+    <Content Include="Resources\leftarrow.png" />
+    <Content Include="Resources\rightarrow.png" />
+    <None Include="Resources\softmotion.jpg" />
+    <None Include="Resources\softmotion1.jpg" />
+    <Content Include="Resources\uparrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy /y "C:\Program Files\SoftServo\WMX3\Lib\IMDll.dll" "$(TargetDir)"
+
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

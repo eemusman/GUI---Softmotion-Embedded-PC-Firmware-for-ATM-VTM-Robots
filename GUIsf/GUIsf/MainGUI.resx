@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="robotbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="robotbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 12</value>
+  </data>
+  <data name="robotbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="robotbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="robotbutton.Text" xml:space="preserve">
+    <value>Robot</value>
+  </data>
+  <data name="&gt;&gt;robotbutton.Name" xml:space="preserve">
+    <value>robotbutton</value>
+  </data>
+  <data name="&gt;&gt;robotbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;robotbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;robotbutton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="multipleaxis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="multipleaxis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 49</value>
+  </data>
+  <data name="multipleaxis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="multipleaxis.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="multipleaxis.Text" xml:space="preserve">
+    <value>Multiple Axis</value>
+  </data>
+  <data name="&gt;&gt;multipleaxis.Name" xml:space="preserve">
+    <value>multipleaxis</value>
+  </data>
+  <data name="&gt;&gt;multipleaxis.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;multipleaxis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;multipleaxis.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="manualbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="manualbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 49</value>
+  </data>
+  <data name="manualbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="manualbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="manualbutton.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;manualbutton.Name" xml:space="preserve">
+    <value>manualbutton</value>
+  </data>
+  <data name="&gt;&gt;manualbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;manualbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;manualbutton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="iobutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="iobutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 12</value>
+  </data>
+  <data name="iobutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="iobutton.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="iobutton.Text" xml:space="preserve">
+    <value>I/O</value>
+  </data>
+  <data name="&gt;&gt;iobutton.Name" xml:space="preserve">
+    <value>iobutton</value>
+  </data>
+  <data name="&gt;&gt;iobutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iobutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;iobutton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="teachingbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="teachingbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 49</value>
+  </data>
+  <data name="teachingbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="teachingbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="teachingbutton.Text" xml:space="preserve">
+    <value>Teaching</value>
+  </data>
+  <data name="&gt;&gt;teachingbutton.Name" xml:space="preserve">
+    <value>teachingbutton</value>
+  </data>
+  <data name="&gt;&gt;teachingbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;teachingbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;teachingbutton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="databasebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="databasebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 12</value>
+  </data>
+  <data name="databasebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="databasebutton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="databasebutton.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="&gt;&gt;databasebutton.Name" xml:space="preserve">
+    <value>databasebutton</value>
+  </data>
+  <data name="&gt;&gt;databasebutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;databasebutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;databasebutton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="alarmbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="alarmbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>867, 12</value>
+  </data>
+  <data name="alarmbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="alarmbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="alarmbutton.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;alarmbutton.Name" xml:space="preserve">
+    <value>alarmbutton</value>
+  </data>
+  <data name="&gt;&gt;alarmbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;alarmbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;alarmbutton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="parambutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="parambutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>867, 49</value>
+  </data>
+  <data name="parambutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="parambutton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="parambutton.Text" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="&gt;&gt;parambutton.Name" xml:space="preserve">
+    <value>parambutton</value>
+  </data>
+  <data name="&gt;&gt;parambutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;parambutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;parambutton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="mainbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 15.75pt</value>
+  </data>
+  <data name="mainbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 19</value>
+  </data>
+  <data name="mainbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 49</value>
+  </data>
+  <data name="mainbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="mainbutton.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;mainbutton.Name" xml:space="preserve">
+    <value>mainbutton</value>
+  </data>
+  <data name="&gt;&gt;mainbutton.Type" xml:space="preserve">
+    <value>AltoControls.AltoButton, AltoControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mainbutton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;mainbutton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="closebutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 15.75pt</value>
+  </data>
+  <data name="closebutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1189, 19</value>
+  </data>
+  <data name="closebutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 49</value>
+  </data>
+  <data name="closebutton.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="closebutton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="&gt;&gt;closebutton.Name" xml:space="preserve">
+    <value>closebutton</value>
+  </data>
+  <data name="&gt;&gt;closebutton.Type" xml:space="preserve">
+    <value>AltoControls.AltoButton, AltoControls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;closebutton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;closebutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="commbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="commbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1018, 49</value>
+  </data>
+  <data name="commbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="commbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="commbutton.Text" xml:space="preserve">
+    <value>Comm. Portal</value>
+  </data>
+  <data name="&gt;&gt;commbutton.Name" xml:space="preserve">
+    <value>commbutton</value>
+  </data>
+  <data name="&gt;&gt;commbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;commbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;commbutton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="engrbutton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 14.25pt</value>
+  </data>
+  <data name="engrbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1018, 12</value>
+  </data>
+  <data name="engrbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 35</value>
+  </data>
+  <data name="engrbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="engrbutton.Text" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="&gt;&gt;engrbutton.Name" xml:space="preserve">
+    <value>engrbutton</value>
+  </data>
+  <data name="&gt;&gt;engrbutton.Type" xml:space="preserve">
+    <value>ColorButton.ColorButton, ColorButton, Version=1.0.1580.37638, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;engrbutton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;engrbutton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="darkSectionPanel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 21.75pt</value>
+  </data>
+  <data name="darkSectionPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 26</value>
+  </data>
+  <data name="darkSectionPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 38</value>
+  </data>
+  <data name="darkSectionPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;darkSectionPanel1.Name" xml:space="preserve">
+    <value>darkSectionPanel1</value>
+  </data>
+  <data name="&gt;&gt;darkSectionPanel1.Type" xml:space="preserve">
+    <value>DarkUI.Controls.DarkSectionPanel, DarkUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;darkSectionPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;darkSectionPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1301, 109</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1300, 1000</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainGUI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

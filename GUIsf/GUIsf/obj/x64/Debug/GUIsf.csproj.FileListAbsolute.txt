@@ -1,0 +1,123 @@
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe.config
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.pdb
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\AdvancedMotionApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\ApiBufferApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\CompensationApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\ComputerId_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\CoordinateApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\CoreMotionApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\CyclicBufferApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\EcApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\EcFilter_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\EventApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\IOApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\KinematicsApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\LogApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\MIIIApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\RBC_ApiCLR.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\RtexApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\SimuApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\UserMemoryApi_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\bin\x64\Debug\WMX3Api_CLRLib.dll
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Engineer.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Form1.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MainGUI.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Properties.Resources.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Robot.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.GenerateResource.cache
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CoreCompileInputs.cache
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CopyComplete
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.exe
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.pdb
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csprojAssemblyReference.cache
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Alarm.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Database.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.IO.resources
+C:\Users\MyHome\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Main.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe.config
+C:\Users\ssk\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe
+C:\Users\ssk\source\repos\GUIsf\GUIsf\bin\x64\Debug\GUIsf.pdb
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csprojAssemblyReference.cache
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.IO.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MainGUI.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Properties.Resources.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Robot.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.GenerateResource.cache
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CoreCompileInputs.cache
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CopyComplete
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.exe
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.pdb
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.RS232Form.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Teaching.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Main.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Alarm.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Database.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Engineer.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Form1.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Manual.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MotorParameters.resources
+C:\Users\ssk\source\repos\GUIsf\GUIsf\obj\x64\Debug\GUIsf.multipleaxis.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe.config
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.pdb
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\VisualPlus.dll
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csprojAssemblyReference.cache
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Alarm.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Database.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Engineer.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Form1.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.IO.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Main.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MainGUI.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Manual.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MotorParameters.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.multipleaxis.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Properties.Resources.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Robot.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.RS232Form.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Teaching.resources
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.GenerateResource.cache
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CoreCompileInputs.cache
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CopyComplete
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.exe
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.pdb
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\XanderUI.dll
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\ReichUI.dll
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\AeroSuite.dll
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\AltoControls.dll
+C:\Users\ssk\source\repos\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\DarkUI.dll
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csprojAssemblyReference.cache
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Alarm.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Database.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Engineer.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Form1.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.IO.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Main.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MainGUI.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Manual.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.MotorParameters.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.multipleaxis.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Properties.Resources.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Robot.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.RS232Form.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Teaching.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.GenerateResource.cache
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CoreCompileInputs.cache
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.exe
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.pdb
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormAlarm.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormDatabase.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormEngineer.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormIO.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormMain.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormMainGUI.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormManual.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormMotorParameters.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.Formmultipleaxis.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormRobot.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.FormTeaching.resources
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe.config
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.exe
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\bin\x64\Debug\GUIsf.pdb
+D:\Ninebell Usman\Soft Motion\GUIsf\GUIsfnew\GUIsf\GUIsf\obj\x64\Debug\GUIsf.csproj.CopyComplete
